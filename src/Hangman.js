@@ -57,7 +57,7 @@ class Hangman extends Component{
       <div className='Hangman'>
         <h1>Hangman</h1>
         <img src={this.props.images[this.state.nWrong]} />
-        <p><strong>{isWinner ? "You win !!!!!" : null}</strong></p> 
+        <p><strong>{isWinner ? "You win !!!!!" : null}</strong></p> git 
         {this.state.nWrong < this.props.maxWrong ?
           <div>
             <p>Number of Wrong guesses : {this.state.nWrong}</p>
